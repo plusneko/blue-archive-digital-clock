@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Time</title>
+    <link rel="stylesheet" href="time.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js"></script>
+</head>
+
+<body>
+  <div class='web--app'>
+    <div class='background'>
+        <video autoplay muted loop>
+            <source src='mobile.mp4' type='video/mp4'>
+        </video>
+        <div class='dark'></div>
+    </div>
+    <div id="clock">
+        <p class="text">-BLUE ARCHIVE-</p>
+        <p class="date">{{ date }}</p>
+        <p class="time">{{ time }}</p>
+        <p class="text">CREATE BY NEKO</p>
+        <p class="text_cr">&#169; 2025 NEKO.</p>
+    </div>
+  </div>
+  <script src="time.js"></script>
+</body>
+
+</html>
